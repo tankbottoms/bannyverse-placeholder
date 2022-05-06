@@ -9,7 +9,9 @@ var cont = stage.addChild(new createjs.Container())
 // Load the banana
 var img = document.createElement("img");
 img.crossOrigin = "Anonymous";
-img.src = "https://s3-us-west-2.amazonaws.com/s.cdpn.io/1524180/Banana.png";
+// img.src = "https://s3-us-west-2.amazonaws.com/s.cdpn.io/1524180/Banana.png";
+img.src =
+    "https://gateway.pinata.cloud/ipfs/QmTvhtSg5VCdATQe5ox8j3AL2ehgY4B8BJYY2kSh6yuY9D";
 img.onload = init;
 var bmp = new createjs.Bitmap(img);
 handleResize();
